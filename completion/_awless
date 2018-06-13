@@ -1,4 +1,3 @@
-#compdef awless
 
 __awless_bash_source() {
 	alias shopt=':'
@@ -12990,5 +12989,3 @@ fi
 BASH_COMPLETION_EOF
 }
 __awless_bash_source <(__awless_convert_bash_to_zsh)
-
-_awless "$@"
